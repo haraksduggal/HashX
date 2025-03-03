@@ -1,0 +1,36 @@
+body {
+    font-family: "Times New Roman", fantasy;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    text-align: middle;
+    object-fit: cover;
+    background-image: url("file:///Users/haraksduggal/Downloads/newimage.jpg");
+    <div class="centered"><h2>TEAM 17</h2> <nl><input type="submit" /></div>
+    margins: auto;
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    objeect-fit: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
